@@ -29,11 +29,15 @@ app_license = "mit"
 #app_include_js = "/assets/lf_website/js/lf_website.js"
 
 # include js, css files in header of web template
-web_include_css = "/assets/lf_website/css/style.css"
+web_include_css = [
+"/assets/lf_website/css/style.css",
+"/assets/lf_website/css/lfstyle.css",
+]
 web_include_js = "/assets/lf_website/js/lf-script.js"
+#web_include_js = "/assets/lf_website/js/lf-hovered-script.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "lf_website/public/scss/website"
+# website_theme_scss = "lf_website/public/scss/lf_website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
