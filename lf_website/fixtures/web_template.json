@@ -1,0 +1,341 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [],
+  "modified": "2026-06-24 11:19:31.733738",
+  "module": "Lf website",
+  "name": "lf_navbar",
+  "standard": 0,
+  "template": "<header class=\"navigation-menu \">\r\n  <nav class=\"lf-main-navigation\">\r\n    <a href=\"https://bagisto.com/en/\" id=\"lf-logo\" title=\"Bagisto\" data-wpel-link=\"internal\">\r\n      <picture>\r\n        <source srcset=\"https://bagisto.com/wp-content/themes/bagisto/images/webp/bagisto-logo.webp\" type=\"image/webp\">\r\n        </source>\r\n        <img src=\"https://bagisto.com/wp-content/themes/bagisto/images/./bagisto-logo.png\" alt=\"bagisto-logo\"\r\n          width=\"147\" height=\"60\" class=\"lf-logo\" />\r\n      </picture>\r\n    </a>\r\n    <div class=\"lf-main-navigation-items\">\r\n      <div class=\"lf-mega-menu-wrapper\">\r\n        <div class=\"menu-mega-menu-container\">\r\n          <ul id=\"menu-mega-menu\" class=\"lf-parent-navs\">\r\n            <li class=\"industries menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children\">\r\n              <div class=\"menu-block\" title=\"Products\">\r\n                <div class=\"menu-label\">\r\n                  Products\r\n                </div>\r\n              </div>\r\n              <ul class=\"sub-menu  submenu-wrapper submenu-lvl-0\" __depth=\"0\">\r\n                <li class=\"has-icon icon-marketplace menu-item menu-item-type-post_type menu-item-object-page\"><a\r\n                    class=\"menu-block menu-btn\" href=\"https://bagisto.com/en/laravel-multi-vendor-marketplace/\"\r\n                    title=\"Multi Vendor Marketplace\" data-wpel-link=\"internal\"><span\r\n                      class=\"menu-icon marketplace\"></span>\r\n                    <div class=\"menu-label\">\r\n                      Multi Vendor Marketplace\r\n                    </div>\r\n                    <p class=\"menu-desc\">Transform your store into a marketplace</p>\r\n                  </a></li>\r\n                <li class=\"has-icon icon-multi-tenant menu-item menu-item-type-post_type menu-item-object-page\"><a\r\n                    class=\"menu-block menu-btn\" href=\"https://bagisto.com/en/laravel-multi-tenant-saas/\"\r\n                    title=\"Multi Tenant Commerce\" data-wpel-link=\"internal\"><span class=\"menu-icon multi-tenant\"></span>\r\n                    <div class=\"menu-label\">\r\n                      Multi Tenant Commerce\r\n                    </div>\r\n                    <p class=\"menu-desc\">SaaS solution to launch and scale online</p>\r\n                  </a></li>\r\n                <li class=\"has-icon icon-headless menu-item menu-item-type-post_type menu-item-object-page\"><a\r\n                    class=\"menu-block menu-btn\" href=\"https://bagisto.com/en/headless-ecommerce/\"\r\n                    title=\"Headless eCommerce&nbsp;\" data-wpel-link=\"internal\"><span class=\"menu-icon headless\"></span>\r\n                    <div class=\"menu-label\">\r\n                      Headless eCommerce&nbsp;\r\n                    </div>\r\n                    <p class=\"menu-desc\">API-first, flexible headless commerce</p>\r\n                  </a></li>\r\n                <li class=\"has-icon icon-b2b-commerce menu-item menu-item-type-post_type menu-item-object-page\"><a\r\n                    class=\"menu-block menu-btn\" href=\"https://bagisto.com/en/b2b-commerce-platform/\"\r\n                    title=\"B2B Commerce\" data-wpel-link=\"internal\"><span class=\"menu-icon b2b-commerce\"></span>\r\n                    <div class=\"menu-label\">\r\n                      B2B Commerce\r\n                    </div>\r\n                    <p class=\"menu-desc\">Build B2B with bulk orders and catalogs</p>\r\n                  </a></li>\r\n                <li class=\"has-icon icon-b2b menu-item menu-item-type-post_type menu-item-object-page\"><a\r\n                    class=\"menu-block menu-btn\" href=\"https://bagisto.com/en/laravel-b2b-marketplace/\"\r\n                    title=\"B2B Marketplace\" data-wpel-link=\"internal\"><span class=\"menu-icon b2b\"></span>\r\n                    <div class=\"menu-label\">\r\n                      B2B Marketplace\r\n                    </div>\r\n                    <p class=\"menu-desc\">Launch a B2B marketplace for scalable trade.</p>\r\n                  </a></li>\r\n                <li class=\"has-icon icon-mobile-app menu-item menu-item-type-post_type menu-item-object-page\"><a\r\n                    class=\"menu-block menu-btn\" href=\"https://bagisto.com/en/open-source-ecommerce-mobile-app/\"\r\n                    title=\"Mobile App\" data-wpel-link=\"internal\"><span class=\"menu-icon mobile-app\"></span>\r\n                    <div class=\"menu-label\">\r\n                      Mobile App\r\n                    </div>\r\n                    <p class=\"menu-desc\">Customizable open-source eCommerce app</p>\r\n                  </a></li>\r\n                <li class=\"has-icon icon-virtual-commerce menu-item menu-item-type-post_type menu-item-object-page\"><a\r\n                    class=\"menu-block menu-btn\" href=\"https://bagisto.com/en/services/virtual-try-on/\"\r\n                    title=\"Virtual Try-On\" data-wpel-link=\"internal\"><span class=\"menu-icon virtual-commerce\"></span>\r\n                    <div class=\"menu-label\">\r\n                      Virtual Try-On\r\n                    </div>\r\n                    <p class=\"menu-desc\">Let customers try products virtually</p>\r\n                  </a></li>\r\n                <li class=\"has-icon icon-ecommerce-stores menu-item menu-item-type-post_type menu-item-object-page\"><a\r\n                    class=\"menu-block menu-btn\" href=\"https://bagisto.com/en/ecommerce-stores/\" title=\"Ecommerce Stores\"\r\n                    data-wpel-link=\"internal\"><span class=\"menu-icon ecommerce-stores\"></span>\r\n                    <div class=\"menu-label\">\r\n                      Ecommerce Stores\r\n                    </div>\r\n                    <p class=\"menu-desc\">Pre-built stores for every business type</p>\r\n                  </a></li>\r\n                <li class=\"has-icon icon-pos menu-item menu-item-type-post_type menu-item-object-page\"><a\r\n                    class=\"menu-block menu-btn\" href=\"https://bagisto.com/en/laravel-pos/\" title=\"POS\"\r\n                    data-wpel-link=\"internal\"><span class=\"menu-icon pos\"></span>\r\n                    <div class=\"menu-label\">\r\n                      POS\r\n                    </div>\r\n                    <p class=\"menu-desc\">Sell products in offline store and online</p>\r\n                  </a></li>\r\n              </ul>\r\n            </li>\r\n\r\n            <li class=\"customers menu-item menu-item-type-custom menu-item-object-custom\">\r\n              <a class=\"menu-block menu-btn\" href=\"/agent-tool\" title=\"Agent Tool\">\r\n                <div class=\"menu-label\">\r\n                  Agent Tool\r\n                </div>\r\n              </a>\r\n            </li>\r\n\r\n            <li class=\"industries menu-item menu-item-type-custom menu-item-object-custom\">\r\n              <a class=\"menu-block menu-btn\" href=\"/services\" title=\"Services\">\r\n                <div class=\"menu-label\">\r\n                  Services\r\n                </div>\r\n              </a>\r\n            </li>\r\n\r\n            <li\r\n              class=\"menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-51219 current_page_item\">\r\n              <a class=\"menu-block menu-btn\" href=\"/pricing\" title=\"Pricing\">\r\n                <div class=\"menu-label\">\r\n                  Pricing\r\n                </div>\r\n              </a>\r\n            </li>\r\n\r\n            <li class=\"customers menu-item menu-item-type-custom menu-item-object-custom\">\r\n              <a class=\"menu-block menu-btn\" href=\"/customers\" title=\"Customers\">\r\n                <div class=\"menu-label\">\r\n                  Customers\r\n                </div>\r\n              </a>\r\n            </li>\r\n\r\n            <li class=\"ecosystem menu-item menu-item-type-custom menu-item-object-custom\">\r\n              <a class=\"menu-block menu-btn\" href=\"/ecosystem\" title=\"Ecosystem\">\r\n                <div class=\"menu-label\">\r\n                  Ecosystem\r\n                </div>\r\n              </a>\r\n            </li>\r\n\r\n            <li class=\"customers menu-item menu-item-type-custom menu-item-object-custom\">\r\n              <a class=\"menu-block menu-btn\" href=\"/resources\" title=\"Resources\">\r\n                <div class=\"menu-label\">\r\n                  Resources\r\n                </div>\r\n              </a>\r\n            </li>\r\n          </ul>\r\n        </div>\r\n      </div>\r\n      <div class=\"wk-hamburger-toggler\" id=\"wk-hamburger-toggler\">\r\n        <span></span>\r\n        <span></span>\r\n        <span></span>\r\n      </div>\r\n      <div class=\"gtranslate-wrapper\">\r\n        <div id=\"google_translate_element\"></div>\r\n        <div class=\"gtranslate_select_box notranslate\">\r\n          <div class=\"gtranslate_btn\" data-lang=\"en\">\r\n            EN\r\n          </div>\r\n          <div class=\"gtranslate_dropdown\">\r\n            <div class=\"option selected\" data-lang=\"en\" readonly=\"\">\r\n              English\r\n            </div>\r\n            <div class=\"option\" data-lang=\"ar\">\r\n              Arabic\r\n            </div>\r\n            <div class=\"option\" data-lang=\"es\">\r\n              Spanish\r\n            </div>\r\n            <div class=\"option\" data-lang=\"pt\">\r\n              Portuguese\r\n            </div>\r\n            <div class=\"option\" data-lang=\"de\">\r\n              German\r\n            </div>\r\n            <div class=\"option\" data-lang=\"vi\">\r\n              Vietnamese\r\n            </div>\r\n            <div class=\"option\" data-lang=\"tr\">\r\n              Turkish\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"lf-sub-navigation\">\r\n      <a href=\"#contact\" class=\"lf-nav-live-demo\" title=\"Talk to Sales\">Talk to Sales</a>\r\n      <!-- <a href=\"#contact\" class=\"lf-nav-live-demo\" title=\"Talk to Sales\">Talk to Sales</a> -->\r\n    </div>\r\n  </nav>\r\n</header>\r\n<script>\r\n  (function () {\r\n    if (document.readyState === 'loading') {\r\n      document.addEventListener('DOMContentLoaded', fixProductsMenu);\r\n    } else {\r\n      fixProductsMenu();\r\n    }\r\n\r\n    function fixProductsMenu() {\r\n      var productsMenuBlock = document.querySelector('.industries.menu-item-has-children .menu-block');\r\n      var productsLi = document.querySelector('.industries.menu-item-has-children');\r\n      var productsSubmenu = productsLi ? productsLi.querySelector('.sub-menu') : null;\r\n\r\n      if (!productsMenuBlock || !productsSubmenu) return;\r\n\r\n      // ✅ 不要克隆和替换！只添加新的事件监听器\r\n      // 但要确保原脚本的事件不会冲突，使用捕获模式或阻止冒泡\r\n\r\n      // 设置初始状态\r\n      productsSubmenu.classList.remove('menu-on', 'menu-slide-up', 'menu-slide-down');\r\n\r\n      // 添加新的点击事件（使用捕获模式，优先执行）\r\n      productsMenuBlock.addEventListener('click', function (e) {\r\n        e.preventDefault();\r\n        e.stopPropagation();\r\n        e.stopImmediatePropagation();\r\n\r\n        // 切换下拉显示/隐藏\r\n        if (productsSubmenu.classList.contains('menu-on')) {\r\n          productsSubmenu.classList.remove('menu-on', 'menu-slide-up');\r\n          productsSubmenu.classList.add('menu-slide-down');\r\n          setTimeout(function () {\r\n            productsSubmenu.classList.remove('menu-slide-down');\r\n          }, 300);\r\n          productsLi.classList.remove('wk-active');\r\n        } else {\r\n          productsSubmenu.classList.remove('menu-slide-down');\r\n          productsSubmenu.classList.add('menu-on', 'menu-slide-up');\r\n          productsLi.classList.add('wk-active');\r\n        }\r\n      }, true); // ← 使用捕获模式\r\n\r\n      // 点击其他地方关闭下拉\r\n      document.addEventListener('click', function (e) {\r\n        if (!productsLi.contains(e.target)) {\r\n          productsSubmenu.classList.remove('menu-on', 'menu-slide-up', 'menu-slide-down');\r\n          productsLi.classList.remove('wk-active');\r\n        }\r\n      });\r\n    }\r\n  })();\r\n</script>",
+  "type": "Navbar"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [
+   {
+    "default": "",
+    "fieldname": "hero_highlight_text",
+    "fieldtype": "Data",
+    "label": "hero highlight text",
+    "options": "",
+    "reqd": 0
+   },
+   {
+    "default": "",
+    "fieldname": "hero_main_title",
+    "fieldtype": "Data",
+    "label": "hero main title",
+    "options": null,
+    "reqd": 0
+   }
+  ],
+  "modified": "2026-06-23 11:39:25.565740",
+  "module": "Lf website",
+  "name": "lf_hero_block",
+  "standard": 0,
+  "template": "<div class=\"lf-up-hero-section section-padding128\">\r\n  <div class=\"wkgrid-wide wider-max\">\r\n    <div class=\"lf-banner-box animate-card\">\r\n      <div class=\"lf-banner-content visible\">\r\n        <h1 class=\"lf-banner-heading m-0\"\r\n          style=\"visibility: visible !important; opacity: 1 !important; font-display: swap\">\r\n          <span class=\"linear-color-text\">{{_(hero_highlight_text)}}</span>\r\n          <br />\r\n          {{ _(hero_main_title) }}\r\n        </h1>\r\n        <p class=\"lf-banner-para m-0\" style=\"visibility: visible !important; opacity: 1 !important; font-display: swap\">\r\n          {{ _(hero_description) }}</p>\r\n        <div class=\"lf-banner-links-wrapper\">\r\n          <a href=\"{{ cta_link_1_url }}\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"lf-button shadow-none\">{{\r\n            _(cta_link_1_label) }}</a>\r\n          <a href=\"{{ cta_link_2_url }}\" title=\"{{ _(cta_link_2_label) }}\" rel=\"noopener noreferrer\"\r\n            class=\"lf-button shadow-none btn-light-black\">\r\n            {{ _(cta_link_2_label) }}\r\n          </a>\r\n          <a href=\"{{ cta_link_3_url }}\" target=\"_blank\" rel=\"noopener noreferrer\"\r\n            class=\"lf-button shadow-none arrowed arrowed-blue\">\r\n            {{ _(cta_link_3_label) }}\r\n          </a>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"lf-banner-img-parent-wrapper visible\">\r\n        <div class=\"lf-banner-rec-card\">\r\n          <div class=\"lf-banner-rec-card-content\">\r\n            <div class=\"lf-banner-rec-sub-card\">\r\n              <p class=\"lf-banner-rec-card-title\">{{ _(person_name) }}</p>\r\n              <p class=\"lf-banner-rec-card-pos\">{{ _(person_title) }}</p>\r\n              <p class=\"lf-banner-rec-card-icon\"></p>\r\n            </div>\r\n            <p class=\"lf-banner-rec-card-para\">{{ _(person_highlight) }}</p>\r\n            <div class=\"lf-video\">\r\n              <div class=\"video-poster lf-img-banner\" data-video=\"{{ video_url }}\">\r\n                <p class=\"video-poster-text\">{{ _(video_label) }}</p>\r\n                <div class=\"lf-hero-play-icon\">\r\n                  <span class=\"lf-hero-play-border\"></span>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"lf-banner-rec-card-img-wrapper\">\r\n            <picture class=\"lf-erica-hero\">\r\n              <source type=\"image/webp\" srcset=\"{{ image_webp_small }}\" media=\"(max-width:525px)\" />\r\n              <source type=\"image/png\" srcset=\"{{ image_png_small }}\" media=\"(max-width:525px)\" />\r\n              <source type=\"image/webp\" srcset=\"{{ image_webp_large }}\" media=\"(min-width:1440px)\" />\r\n              <source type=\"image/png\" srcset=\"{{ image_png_large }}\" media=\"(min-width:1440px)\" />\r\n              <source type=\"image/webp\" srcset=\"{{ image_webp_default }}\" media=\"(min-width:0px)\" />\r\n              <source type=\"image/png\" srcset=\"{{ image_png_default }}\" media=\"(min-width:0px)\" />\r\n              <img src=\"{{ image_fallback }}\" class=\"lf-erica-hero\" width=\"274\" height=\"437\" alt=\"{{ _(image_alt) }}\"\r\n                title=\"{{ _(image_title) }}\" />\r\n            </picture>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>",
+  "type": "Section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [
+   {
+    "default": null,
+    "fieldname": "cta_main_title",
+    "fieldtype": "Data",
+    "label": "CTA Main Title",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "cta_main_description",
+    "fieldtype": "Text",
+    "label": "CTA Main Description",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "cta_button_text",
+    "fieldtype": "Data",
+    "label": "CTA Button Text",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "cta_button_url",
+    "fieldtype": "Data",
+    "label": "CTA Button URL",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "cta_secondary_button_text",
+    "fieldtype": "Data",
+    "label": "CTA Secondary Button Text",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "cta_secondary_button_url",
+    "fieldtype": "Data",
+    "label": "CTA Secondary Button URL",
+    "options": null,
+    "reqd": 0
+   }
+  ],
+  "modified": "2026-06-23 11:32:39.381290",
+  "module": "Lf website",
+  "name": "lf_CTA",
+  "standard": 0,
+  "template": "<section class=\"lf-jumbotron-section section-padding128 section-to-animate animate\" data-animation-speed=\"3000\">\r\n  <div class=\"wkgrid-wide wider-max\">\r\n    <div class=\"lf-jumbotron-content-wrapper\">\r\n      <div class=\"lf-banner-content text-center\">\r\n\r\n        <h2 class=\"lf-banner-title m-0\">\r\n          {{ _(cta_main_title) }}\r\n        </h2>\r\n\r\n        <p class=\"lf-banner-para m-0\">\r\n          {{ _(cta_main_description) }}\r\n        </p>\r\n\r\n        <div class=\"lf-banner-links-wrapper\">\r\n\r\n          <a href=\"{{ cta_button_url }}\" target=\"_blank\" rel=\"noopener noreferrer\"\r\n            class=\"lf-button shadow-none btn-moon m-0\">\r\n            {{ _(cta_button_text) }}\r\n          </a>\r\n\r\n          <a href=\"{{ cta_secondary_button_url }}\" target=\"_blank\" title=\"Live Demo\" rel=\"noopener noreferrer\"\r\n            class=\"lf-button shadow-none btn-light m-0\">\r\n            {{ _(cta_secondary_button_text) }}\r\n          </a>\r\n\r\n        </div>\r\n\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>",
+  "type": "Section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [],
+  "modified": "2026-06-24 15:21:04.014212",
+  "module": "Lf website",
+  "name": "lf_trusted_section",
+  "standard": 0,
+  "template": "<section id=\"lf-trusted-by-section\" class=\"lf-trusted-by-section section-pattern-line\">\r\n  <div class=\"krgrid-wide --xl \">\r\n    <div class=\"lf-square-section-container background-white lf-trusted-container\">\r\n      <!-- Decoration Squares -->\r\n      <div class=\"lf-core-features-content\">\r\n        <div class=\"lf-sec-head\">\r\n          <div class=\"header-tag reveal-on-scroll reveal-scale is-visible\" data-index=\"0\">01 // RELIABILITY</div>\r\n          <h2 class=\"reveal-on-scroll is-visible\" data-index=\"1\">Trusted by Global Innovators</h2>\r\n        </div>\r\n\r\n        <div class=\"lf-company-grid margin-top-24\">\r\n          <div class=\"lf-company-panel reveal-on-scroll is-visible\" data-index=\"0\">\r\n            <!-- Collapsed State: Logo -->\r\n            <div class=\"collapsed-content\">\r\n              <div class=\"company-logo-wrap company-logo-center grayscale\">\r\n                <picture>\r\n                  <source srcset=\"https://krayincrm.com/wp-content/themes/krayincrm/images/webp/iim-logo.webp\"\r\n                    type=\"image/webp\"><img\r\n                    src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/trusted-by/iim-logo.png\"\r\n                    alt=\"Indian Institute of Management Ahmedabad\" width=\"62\" height=\"62\" class=\"object-contain\"\r\n                    loading=\"lazy\">\r\n                </picture>\r\n              </div>\r\n            </div>\r\n\r\n            <!-- Expanded Content -->\r\n            <div class=\"lf-expanded-content\">\r\n              <div class=\"company-logo-wrap 62 62\">\r\n                <picture>\r\n                  <source srcset=\"https://krayincrm.com/wp-content/themes/krayincrm/images/webp/iim-logo.webp\"\r\n                    type=\"image/webp\"><img\r\n                    src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/trusted-by/iim-logo.png\"\r\n                    alt=\"Indian Institute of Management Ahmedabad\" width=\"62\" height=\"62\"\r\n                    class=\"object-contain object-left\" loading=\"lazy\">\r\n                </picture>\r\n              </div>\r\n\r\n              <div class=\"lf-panel-info\">\r\n                <div class=\"company-name\">Indian Institute of Management Ahmedabad</div>\r\n                <p>The Indian Institute of Management Ahmedabad (IIMA) utilizes Krayin CRM for their Executive Education\r\n                  programs to streamline administration and enhance participant engagement.</p>\r\n                <a href=\"https://krayincrm.com/case-studies/iima-executive-education-india-krayin-crm/\" target=\"_self\"\r\n                  rel=\"\" class=\"cta-link hover:underline\" data-wpel-link=\"internal\">\r\n                  Built on Krayin CRM →\r\n                </a>\r\n              </div>\r\n            </div>\r\n\r\n            <!-- Blue accent line -->\r\n            <div class=\"accent-line\"></div>\r\n\r\n            <!-- Subtle corner pattern (implemented in LESS if needed or via bg) -->\r\n            <div class=\"lf-panel-pattern\"></div>\r\n          </div>\r\n          <div class=\"lf-company-panel reveal-on-scroll is-visible\" data-index=\"1\">\r\n            <!-- Collapsed State: Logo -->\r\n            <div class=\"collapsed-content\">\r\n              <div class=\"company-logo-wrap company-logo-center grayscale\">\r\n                <picture>\r\n                  <source srcset=\"https://krayincrm.com/wp-content/themes/krayincrm/images/webp/camra-logo.webp\"\r\n                    type=\"image/webp\"><img\r\n                    src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/trusted-by/camra-logo.png\" alt=\"CAMRA\"\r\n                    width=\"76\" height=\"32\" class=\"object-contain\" loading=\"lazy\">\r\n                </picture>\r\n              </div>\r\n            </div>\r\n\r\n            <!-- Expanded Content -->\r\n            <div class=\"lf-expanded-content\">\r\n              <div class=\"company-logo-wrap 32 76\">\r\n                <picture>\r\n                  <source srcset=\"https://krayincrm.com/wp-content/themes/krayincrm/images/webp/camra-logo.webp\"\r\n                    type=\"image/webp\"><img\r\n                    src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/trusted-by/camra-logo.png\" alt=\"CAMRA\"\r\n                    width=\"76\" height=\"32\" class=\"object-contain object-left\" loading=\"lazy\">\r\n                </picture>\r\n              </div>\r\n\r\n              <div class=\"lf-panel-info\">\r\n                <div class=\"company-name\">CAMRA</div>\r\n                <p>Campaign for Real Ale (CAMRA) is an independent voluntary consumer organisation headquartered in St\r\n                  Albans, England.</p>\r\n                <a href=\"https://krayincrm.com/case-studies/camra-uk-consumer-organisation-krayin-crm/\" target=\"_self\"\r\n                  rel=\"\" class=\"cta-link hover:underline\" data-wpel-link=\"internal\">\r\n                  Built on Krayin CRM →\r\n                </a>\r\n              </div>\r\n            </div>\r\n\r\n            <!-- Blue accent line -->\r\n            <div class=\"accent-line\"></div>\r\n\r\n            <!-- Subtle corner pattern (implemented in LESS if needed or via bg) -->\r\n            <div class=\"lf-panel-pattern\"></div>\r\n          </div>\r\n          <div class=\"lf-company-panel reveal-on-scroll is-visible\" data-index=\"2\">\r\n            <!-- Collapsed State: Logo -->\r\n            <div class=\"collapsed-content\">\r\n              <div class=\"company-logo-wrap company-logo-center grayscale\">\r\n                <picture>\r\n                  <source srcset=\"https://krayincrm.com/wp-content/themes/krayincrm/images/webp/hultprize-logo.webp\"\r\n                    type=\"image/webp\"><img\r\n                    src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/trusted-by/hultprize-logo.png\"\r\n                    alt=\"Hult Prize\" width=\"96\" height=\"32\" class=\"object-contain\" loading=\"lazy\">\r\n                </picture>\r\n              </div>\r\n            </div>\r\n\r\n            <!-- Expanded Content -->\r\n            <div class=\"lf-expanded-content\">\r\n              <div class=\"company-logo-wrap 32 96\">\r\n                <picture>\r\n                  <source srcset=\"https://krayincrm.com/wp-content/themes/krayincrm/images/webp/hultprize-logo.webp\"\r\n                    type=\"image/webp\"><img\r\n                    src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/trusted-by/hultprize-logo.png\"\r\n                    alt=\"Hult Prize\" width=\"96\" height=\"32\" class=\"object-contain object-left\" loading=\"lazy\">\r\n                </picture>\r\n              </div>\r\n\r\n              <div class=\"lf-panel-info\">\r\n                <div class=\"company-name\">Hult Prize</div>\r\n                <p>Hult Prize is a global social entrepreneurship founded in 2010. The organization inspires young\r\n                  people to solve the world's most pressing issues through social business.</p>\r\n                <a href=\"https://www.hultprize.org/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"\r\n                  class=\"cta-link hover:underline\" data-wpel-link=\"external\">\r\n                  Built on Krayin CRM →\r\n                </a>\r\n              </div>\r\n            </div>\r\n\r\n            <!-- Blue accent line -->\r\n            <div class=\"accent-line\"></div>\r\n\r\n            <!-- Subtle corner pattern (implemented in LESS if needed or via bg) -->\r\n            <div class=\"lf-panel-pattern\"></div>\r\n          </div>\r\n          <div class=\"lf-company-panel reveal-on-scroll is-visible\" data-index=\"3\">\r\n            <!-- Collapsed State: Logo -->\r\n            <div class=\"collapsed-content\">\r\n              <div class=\"company-logo-wrap company-logo-center grayscale\">\r\n                <picture>\r\n                  <source srcset=\"https://krayincrm.com/wp-content/themes/krayincrm/images/webp/unilarvas-logo.webp\"\r\n                    type=\"image/webp\"><img\r\n                    src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/trusted-by/unilarvas-logo.png\"\r\n                    alt=\"UNILAVRAS\" width=\"152\" height=\"32\" class=\"object-contain\" loading=\"lazy\">\r\n                </picture>\r\n              </div>\r\n            </div>\r\n\r\n            <!-- Expanded Content -->\r\n            <div class=\"lf-expanded-content\">\r\n              <div class=\"company-logo-wrap 32 152\">\r\n                <picture>\r\n                  <source srcset=\"https://krayincrm.com/wp-content/themes/krayincrm/images/webp/unilarvas-logo.webp\"\r\n                    type=\"image/webp\"><img\r\n                    src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/trusted-by/unilarvas-logo.png\"\r\n                    alt=\"UNILAVRAS\" width=\"152\" height=\"32\" class=\"object-contain object-left\" loading=\"lazy\">\r\n                </picture>\r\n              </div>\r\n\r\n              <div class=\"lf-panel-info\">\r\n                <div class=\"company-name\">UNILAVRAS</div>\r\n                <p>UNILAVRAS is a leading educational center in Brazil, committed to academic excellence and social\r\n                  responsibility through innovative teaching.</p>\r\n                <a href=\"https://krayincrm.com/case-studies/unilavras-brazilian-university-krayin-crm/\" target=\"_self\"\r\n                  rel=\"\" class=\"cta-link hover:underline\" data-wpel-link=\"internal\">\r\n                  Built on Krayin CRM →\r\n                </a>\r\n              </div>\r\n            </div>\r\n\r\n            <!-- Blue accent line -->\r\n            <div class=\"accent-line\"></div>\r\n\r\n            <!-- Subtle corner pattern (implemented in LESS if needed or via bg) -->\r\n            <div class=\"lf-panel-pattern\"></div>\r\n          </div>\r\n          <div class=\"lf-company-panel reveal-on-scroll is-visible\" data-index=\"4\">\r\n            <!-- Collapsed State: Logo -->\r\n            <div class=\"collapsed-content\">\r\n              <div class=\"company-logo-wrap company-logo-center grayscale\">\r\n                <picture>\r\n                  <source srcset=\"https://krayincrm.com/wp-content/themes/krayincrm/images/webp/desatnick-logo.webp\"\r\n                    type=\"image/webp\"><img\r\n                    src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/trusted-by/desatnick-logo.png\"\r\n                    alt=\"DESATNICK\" width=\"153\" height=\"33\" class=\"object-contain\" loading=\"lazy\">\r\n                </picture>\r\n              </div>\r\n            </div>\r\n\r\n            <!-- Expanded Content -->\r\n            <div class=\"lf-expanded-content\">\r\n              <div class=\"company-logo-wrap 33 153\">\r\n                <picture>\r\n                  <source srcset=\"https://krayincrm.com/wp-content/themes/krayincrm/images/webp/desatnick-logo.webp\"\r\n                    type=\"image/webp\"><img\r\n                    src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/trusted-by/desatnick-logo.png\"\r\n                    alt=\"DESATNICK\" width=\"153\" height=\"33\" class=\"object-contain object-left\" loading=\"lazy\">\r\n                </picture>\r\n              </div>\r\n\r\n              <div class=\"lf-panel-info\">\r\n                <div class=\"company-name\">DESATNICK</div>\r\n                <p>Desatnick Real Estate is a prestigious agency specializing in luxury coastal properties, delivering\r\n                  exceptional service and results.</p>\r\n                <a href=\"https://krayincrm.com/case-studies/desatnick-usa-real-estate-open-source-krayin-crm-webkul/\"\r\n                  target=\"_self\" rel=\"\" class=\"cta-link hover:underline\" data-wpel-link=\"internal\">\r\n                  Built on Krayin CRM →\r\n                </a>\r\n              </div>\r\n            </div>\r\n\r\n            <!-- Blue accent line -->\r\n            <div class=\"accent-line\"></div>\r\n\r\n            <!-- Subtle corner pattern (implemented in LESS if needed or via bg) -->\r\n            <div class=\"lf-panel-pattern\"></div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>",
+  "type": "Section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [],
+  "modified": "2026-06-24 15:03:33.876863",
+  "module": "Lf website",
+  "name": "lf_tabs_section",
+  "standard": 0,
+  "template": "<section id=\"lf-core-features-section\" class=\"lf-core-features-section border-azure-top\">\r\n  <div class=\"krgrid-wide --xl\">\r\n    <div class=\"lf-square-section-container\">\r\n      <!-- Decoration Squares -->\r\n      <div class=\"lf-dec-square square-tl\"></div>\r\n      <div class=\"lf-dec-square square-tr\"></div>\r\n\r\n      <div class=\"lf-core-features-content\">\r\n        <div class=\"lf-sec-head\">\r\n          <div class=\"header-tag reveal-on-scroll reveal-scale is-visible\" data-index=\"0\">02 // ARCHITECTURE</div>\r\n          <h2 class=\"reveal-on-scroll is-visible\" data-index=\"1\">The Functional Core of Krayin</h2>\r\n        </div>\r\n\r\n        <div class=\"lf-interaction-area margin-top-24 reveal-on-scroll is-visible\" data-index=\"2\">\r\n          <!-- Feature Tabs -->\r\n          <div class=\"lf-feature-tabs\">\r\n\r\n            <div class=\"lf-feature-tab-item active\" data-id=\"sales\">\r\n              <div class=\"tab-card-content\">\r\n                <div class=\"lf-feature-tabs-tittle\">Sales Management</div>\r\n                <p>Features that assist with lead tracking, deal management, and sales forecasting.</p>\r\n              </div>\r\n              <div class=\"lf-mobile-preview-image\">\r\n                <picture class=\"lf-feature-img\">\r\n                  <source type=\"image/webp\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/sales-management-small.webp\"\r\n                    media=\"(max-width:525px)\">\r\n                  <source type=\"image/png\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/sales-management-small.png\"\r\n                    media=\"(max-width:525px)\">\r\n                  <source type=\"image/webp\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/orignal/sales-management-orignal.webp\"\r\n                    media=\"(min-width:0px)\">\r\n                  <source type=\"image/png\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/orignal/sales-management-orignal.png\"\r\n                    media=\"(min-width:0px)\">\r\n                  <img\r\n                    src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/sales-management.png\"\r\n                    class=\"lf-feature-img\" width=\"986\" height=\"594\" alt=\"krayin-feature-sales\" title=\"Sales Management\"\r\n                    loading=\"lazy\">\r\n                </picture>\r\n              </div>\r\n              <div class=\"lf-tab-active-indicator\"></div>\r\n            </div>\r\n            <div class=\"lf-feature-tab-item\" data-id=\"marketing\">\r\n              <div class=\"tab-card-content\">\r\n                <div class=\"lf-feature-tabs-tittle\">Marketing Automation</div>\r\n                <p>Tools for campaign management, email marketing, and customer segmentation.</p>\r\n              </div>\r\n              <div class=\"lf-mobile-preview-image\">\r\n                <picture class=\"lf-feature-img\">\r\n                  <source type=\"image/webp\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/email-template-small.webp\"\r\n                    media=\"(max-width:525px)\">\r\n                  <source type=\"image/png\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/email-template-small.png\"\r\n                    media=\"(max-width:525px)\">\r\n                  <source type=\"image/webp\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/orignal/email-template-orignal.webp\"\r\n                    media=\"(min-width:0px)\">\r\n                  <source type=\"image/png\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/orignal/email-template-orignal.png\"\r\n                    media=\"(min-width:0px)\">\r\n                  <img\r\n                    src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/email-template.png\"\r\n                    class=\"lf-feature-img\" width=\"986\" height=\"594\" alt=\"krayin-feature-marketing\"\r\n                    title=\"Marketing Automation\" loading=\"lazy\">\r\n                </picture>\r\n              </div>\r\n              <div class=\"lf-tab-active-indicator\"></div>\r\n            </div>\r\n            <div class=\"lf-feature-tab-item\" data-id=\"support\">\r\n              <div class=\"tab-card-content\">\r\n                <div class=\"lf-feature-tabs-tittle\">Customer Support</div>\r\n                <p>Systems for VoIP, live chat, and customer feedback across multiple channels.</p>\r\n              </div>\r\n              <div class=\"lf-mobile-preview-image\">\r\n                <picture class=\"lf-feature-img\">\r\n                  <source type=\"image/webp\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/customer-support-small.webp\"\r\n                    media=\"(max-width:525px)\">\r\n                  <source type=\"image/png\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/customer-support-small.png\"\r\n                    media=\"(max-width:525px)\">\r\n                  <source type=\"image/webp\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/orignal/customer-support-orignal.webp\"\r\n                    media=\"(min-width:0px)\">\r\n                  <source type=\"image/png\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/orignal/customer-support-orignal.png\"\r\n                    media=\"(min-width:0px)\">\r\n                  <img\r\n                    src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/customer-support.png\"\r\n                    class=\"lf-feature-img\" width=\"986\" height=\"594\" alt=\"krayin-feature-support\"\r\n                    title=\"Customer Support\" loading=\"lazy\">\r\n                </picture>\r\n              </div>\r\n              <div class=\"lf-tab-active-indicator\"></div>\r\n            </div>\r\n            <div class=\"lf-feature-tab-item\" data-id=\"analytics\">\r\n              <div class=\"tab-card-content\">\r\n                <div class=\"lf-feature-tabs-tittle\">Data and Analytics</div>\r\n                <p>Functions for reporting, performance analysis, and deep actionable insights.</p>\r\n              </div>\r\n              <div class=\"lf-mobile-preview-image\">\r\n                <picture class=\"lf-feature-img\">\r\n                  <source type=\"image/webp\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/data-analytics-small.webp\"\r\n                    media=\"(max-width:525px)\">\r\n                  <source type=\"image/png\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/data-analytics-small.png\"\r\n                    media=\"(max-width:525px)\">\r\n                  <source type=\"image/webp\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/orignal/data-analytics-orignal.webp\"\r\n                    media=\"(min-width:0px)\">\r\n                  <source type=\"image/png\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/orignal/data-analytics-orignal.png\"\r\n                    media=\"(min-width:0px)\">\r\n                  <img\r\n                    src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/data-analytics.png\"\r\n                    class=\"lf-feature-img\" width=\"986\" height=\"594\" alt=\"krayin-feature-analytics\"\r\n                    title=\"Data and Analytics\" loading=\"lazy\">\r\n                </picture>\r\n              </div>\r\n              <div class=\"lf-tab-active-indicator\"></div>\r\n            </div>\r\n            <!-- Sliding Indicator for Desktop -->\r\n            <div class=\"lf-tab-sliding-indicator\"></div>\r\n          </div>\r\n\r\n          <!-- Desktop Preview Container -->\r\n          <div class=\"desktop-preview-container\">\r\n\r\n            <div class=\"preview-image-wrap active\" data-preview-id=\"sales\">\r\n              <picture class=\"lf-feature-img\">\r\n                <source type=\"image/webp\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/sales-management-small.webp\"\r\n                  media=\"(max-width:525px)\">\r\n                <source type=\"image/png\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/sales-management-small.png\"\r\n                  media=\"(max-width:525px)\">\r\n                <source type=\"image/webp\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/orignal/sales-management-orignal.webp\"\r\n                  media=\"(min-width:0px)\">\r\n                <source type=\"image/png\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/orignal/sales-management-orignal.png\"\r\n                  media=\"(min-width:0px)\">\r\n                <img\r\n                  src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/sales-management.png\"\r\n                  class=\"lf-feature-img\" width=\"986\" height=\"594\" alt=\"krayin-feature-sales\" title=\"Sales Management\"\r\n                  loading=\"lazy\">\r\n              </picture>\r\n            </div>\r\n            <div class=\"preview-image-wrap\" data-preview-id=\"marketing\">\r\n              <picture class=\"lf-feature-img\">\r\n                <source type=\"image/webp\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/email-template-small.webp\"\r\n                  media=\"(max-width:525px)\">\r\n                <source type=\"image/png\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/email-template-small.png\"\r\n                  media=\"(max-width:525px)\">\r\n                <source type=\"image/webp\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/orignal/email-template-orignal.webp\"\r\n                  media=\"(min-width:0px)\">\r\n                <source type=\"image/png\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/orignal/email-template-orignal.png\"\r\n                  media=\"(min-width:0px)\">\r\n                <img\r\n                  src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/email-template.png\"\r\n                  class=\"lf-feature-img\" width=\"986\" height=\"594\" alt=\"krayin-feature-marketing\"\r\n                  title=\"Marketing Automation\" loading=\"lazy\">\r\n              </picture>\r\n            </div>\r\n            <div class=\"preview-image-wrap\" data-preview-id=\"support\">\r\n              <picture class=\"lf-feature-img\">\r\n                <source type=\"image/webp\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/customer-support-small.webp\"\r\n                  media=\"(max-width:525px)\">\r\n                <source type=\"image/png\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/customer-support-small.png\"\r\n                  media=\"(max-width:525px)\">\r\n                <source type=\"image/webp\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/orignal/customer-support-orignal.webp\"\r\n                  media=\"(min-width:0px)\">\r\n                <source type=\"image/png\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/orignal/customer-support-orignal.png\"\r\n                  media=\"(min-width:0px)\">\r\n                <img\r\n                  src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/customer-support.png\"\r\n                  class=\"lf-feature-img\" width=\"986\" height=\"594\" alt=\"krayin-feature-support\" title=\"Customer Support\"\r\n                  loading=\"lazy\">\r\n              </picture>\r\n            </div>\r\n            <div class=\"preview-image-wrap\" data-preview-id=\"analytics\">\r\n              <picture class=\"lf-feature-img\">\r\n                <source type=\"image/webp\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/data-analytics-small.webp\"\r\n                  media=\"(max-width:525px)\">\r\n                <source type=\"image/png\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/data-analytics-small.png\"\r\n                  media=\"(max-width:525px)\">\r\n                <source type=\"image/webp\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/orignal/data-analytics-orignal.webp\"\r\n                  media=\"(min-width:0px)\">\r\n                <source type=\"image/png\" srcset=\"\r\nhttps://krayincrm.com/wp-content/themes/krayincrm/images/core-features/orignal/data-analytics-orignal.png\"\r\n                  media=\"(min-width:0px)\">\r\n                <img\r\n                  src=\"https://krayincrm.com/wp-content/themes/krayincrm/images/core-features/small/data-analytics.png\"\r\n                  class=\"lf-feature-img\" width=\"986\" height=\"594\" alt=\"krayin-feature-analytics\"\r\n                  title=\"Data and Analytics\" loading=\"lazy\">\r\n              </picture>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <!-- Sub-features Grid -->\r\n        <div class=\"lf-sub-features-grid margin-top-24\">\r\n          <div class=\"lf-sub-feature-card reveal-on-scroll is-visible\" data-index=\"3\">\r\n\r\n            <div class=\"lf-sub-icon-wrap sub-feature-icon icon-revenue\"></div>\r\n\r\n            <div class=\"sub-info\">\r\n              <h3 class=\"sub-info-title\">Opportunity into Revenue</h3>\r\n              <p class=\"sub-info-desc\">Provides with all the tools to manage and capture important leads and\r\n                opportunities at scale.</p>\r\n            </div>\r\n\r\n          </div>\r\n          <div class=\"lf-sub-feature-card reveal-on-scroll is-visible\" data-index=\"4\">\r\n\r\n            <div class=\"lf-sub-icon-wrap sub-feature-icon icon-custom-fields\"></div>\r\n\r\n            <div class=\"sub-info\">\r\n              <h3 class=\"sub-info-title\">Custom Fields</h3>\r\n              <p class=\"sub-info-desc\">Add unlimited custom fields to adapt the CRM to your unique business requirements\r\n                and company logic.</p>\r\n            </div>\r\n\r\n          </div>\r\n          <div class=\"lf-sub-feature-card reveal-on-scroll is-visible\" data-index=\"5\">\r\n\r\n            <div class=\"lf-sub-icon-wrap sub-feature-icon icon-activities\"></div>\r\n\r\n            <div class=\"sub-info\">\r\n              <h3 class=\"sub-info-title\">Activities Management</h3>\r\n              <p class=\"sub-info-desc\">Keep track of sales activities like meetings, calls, and notes to ensure nothing\r\n                falls through the cracks.</p>\r\n            </div>\r\n\r\n          </div>\r\n          <div class=\"lf-sub-feature-card reveal-on-scroll is-visible\" data-index=\"6\">\r\n\r\n            <div class=\"lf-sub-icon-wrap sub-feature-icon icon-access-control\"></div>\r\n\r\n            <div class=\"sub-info\">\r\n              <h3 class=\"sub-info-title\">Access Control List</h3>\r\n              <p class=\"sub-info-desc\">Assign specific roles to users to ensure they have the right access to records,\r\n                keeping data secure.</p>\r\n            </div>\r\n\r\n          </div>\r\n          <div class=\"lf-sub-feature-card reveal-on-scroll is-visible\" data-index=\"7\">\r\n\r\n            <div class=\"lf-sub-icon-wrap sub-feature-icon icon-contacts\"></div>\r\n\r\n            <div class=\"sub-info\">\r\n              <h3 class=\"sub-info-title\">Contact Management</h3>\r\n              <p class=\"sub-info-desc\">Everything you need to know about the people and organizations you do business\r\n                with, in one place.</p>\r\n            </div>\r\n\r\n          </div>\r\n          <div class=\"lf-sub-feature-card reveal-on-scroll is-visible\" data-index=\"8\">\r\n\r\n            <div class=\"lf-sub-icon-wrap sub-feature-icon icon-products\"></div>\r\n\r\n            <div class=\"sub-info\">\r\n              <h3 class=\"sub-info-title\">Product Creation</h3>\r\n              <p class=\"sub-info-desc\">Manage all products and services your company offers, tracking inventory and\r\n                adding value to every lead.</p>\r\n            </div>\r\n\r\n          </div>\r\n        </div>\r\n\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>",
+  "type": "Section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [],
+  "modified": "2026-06-24 15:06:46.868338",
+  "module": "Lf website",
+  "name": "lf_square section",
+  "standard": 0,
+  "template": "<section class=\"lf-agentic-ai-section border-azure-top\">\r\n  <div class=\"krgrid-wide --xl\">\r\n    <div class=\"lf-square-section-container\">\r\n      <!-- Decoration Squares -->\r\n      <div class=\"lf-core-features-content\">\r\n        <div class=\"lf-sec-head\">\r\n          <div class=\"header-tag reveal-on-scroll reveal-scale is-visible\" data-index=\"0\">03 // INTELLIGENCE</div>\r\n          <h2 class=\"reveal-on-scroll is-visible\" data-index=\"1\">Agentic AI for Intelligent CRM Automation</h2>\r\n        </div>\r\n      </div>\r\n      <div class=\"lf-sub-features-grid  margin-top-24\">\r\n        <div class=\"lf-sub-feature-card lf-agentic-ai-card reveal-on-scroll is-visible\" data-index=\"3\">\r\n\r\n          <div class=\"lf-sub-icon-wrap icon-crm-development\"></div>\r\n\r\n          <div class=\"sub-info\">\r\n            <h3 class=\"sub-info-title\">AI Powered CRM Development</h3>\r\n            <p class=\"sub-info-desc\">Build intelligent CRM systems with AI-driven workflows, predictive insights, and\r\n              automation.</p>\r\n          </div>\r\n\r\n        </div>\r\n        <div class=\"lf-sub-feature-card lf-agentic-ai-card reveal-on-scroll is-visible\" data-index=\"4\">\r\n\r\n          <div class=\"lf-sub-icon-wrap icon-chatbot-crm\"></div>\r\n\r\n          <div class=\"sub-info\">\r\n            <h3 class=\"sub-info-title\">AI Chatbot Development for CRM</h3>\r\n            <p class=\"sub-info-desc\">Deploy AI chatbots that handle customer queries, capture leads, and deliver instant\r\n              responses.</p>\r\n          </div>\r\n\r\n        </div>\r\n        <div class=\"lf-sub-feature-card lf-agentic-ai-card reveal-on-scroll is-visible\" data-index=\"5\">\r\n\r\n          <div class=\"lf-sub-icon-wrap icon-support-automation\"></div>\r\n\r\n          <div class=\"sub-info\">\r\n            <h3 class=\"sub-info-title\">AI Customer Support Automation</h3>\r\n            <p class=\"sub-info-desc\">Automate support operations using AI to classify tickets, recommend solutions, and\r\n              resolve issues faster.</p>\r\n          </div>\r\n\r\n        </div>\r\n        <div class=\"lf-sub-feature-card lf-agentic-ai-card reveal-on-scroll is-visible\" data-index=\"6\">\r\n\r\n          <div class=\"lf-sub-icon-wrap icon-sales-intelligence\"></div>\r\n\r\n          <div class=\"sub-info\">\r\n            <h3 class=\"sub-info-title\">AI Sales Intelligence for CRM</h3>\r\n            <p class=\"sub-info-desc\">Use AI insights to identify opportunities, predict customer intent, and prioritize\r\n              deals effectively.</p>\r\n          </div>\r\n\r\n        </div>\r\n        <div class=\"lf-sub-feature-card lf-agentic-ai-card reveal-on-scroll is-visible\" data-index=\"7\">\r\n\r\n          <div class=\"lf-sub-icon-wrap icon-marketing-automation\"></div>\r\n\r\n          <div class=\"sub-info\">\r\n            <h3 class=\"sub-info-title\">AI Marketing Automation for CRM</h3>\r\n            <p class=\"sub-info-desc\">Enable AI-driven campaign automation, smart audience segmentation, and personalized\r\n              engagement.</p>\r\n          </div>\r\n\r\n        </div>\r\n        <div class=\"lf-sub-feature-card lf-agentic-ai-card reveal-on-scroll is-visible\" data-index=\"8\">\r\n\r\n          <div class=\"lf-sub-icon-wrap icon-agentic-ai\"></div>\r\n\r\n          <div class=\"sub-info\">\r\n            <h3 class=\"sub-info-title\">Agentic AI and Automation</h3>\r\n            <p class=\"sub-info-desc\">Deploy autonomous AI agents that analyze data, make decisions, and execute CRM\r\n              workflows.</p>\r\n          </div>\r\n\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>",
+  "type": "Section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [],
+  "modified": "2026-06-23 11:33:39.971999",
+  "module": "Lf website",
+  "name": "lf_footer",
+  "standard": 0,
+  "template": "<footer class=\"\">\r\n  <div class=\"lf-mega-footer section-padding\">\r\n    <div class=\"wkgrid-wide wider-max\">\r\n      <div class=\"social-connect\">\r\n        <div class=\"lf-webkul-initiated-project\">\r\n          <a class=\"lf-wk-logo\" href=\"https://webkul.com/\" target=\"_blank\" data-wpel-link=\"exclude\">\r\n            <picture>\r\n              <img src=\"https://bagisto.com/wp-content/themes/bagisto/images/global/webkul-logo.png\" alt=\"webkul logo\"\r\n                width=\"150\" height=\"34\" class=\"\" loading=\"lazy\">\r\n            </picture>\r\n          </a>\r\n          <p class=\"lf-webkul-tag\"> An open source <br> initiative by <a href=\"https://webkul.com/\" target=\"_blank\"\r\n              data-wpel-link=\"exclude\"> Webkul</a></p>\r\n\r\n        </div>\r\n        <div class=\"social-icons-wrapper\">\r\n          <a href=\"https://www.facebook.com/BagistoShop/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"\r\n            title=\"Facebook\" aria-label=\"facebook\" class=\"fb icons\" data-wpel-link=\"external\"></a>\r\n          <a href=\"https://x.com/BagistoShop\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"Twitter\"\r\n            aria-label=\"Twitter\" class=\"icons twitter\" data-wpel-link=\"external\"></a>\r\n          <a href=\"https://www.linkedin.com/company/bagisto/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"\r\n            title=\"Linkedln\" aria-label=\"Linkedln\" class=\"icons linkedln\" data-wpel-link=\"external\"></a>\r\n          <a href=\"https://www.instagram.com/bagisto_tips/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"\r\n            title=\"Instagram\" aria-label=\"Instagram\" class=\"icons instagram\" data-wpel-link=\"external\"></a>\r\n          <a href=\"https://www.youtube.com/c/Bagisto/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"\r\n            title=\"Youtube\" aria-label=\"Youtube\" class=\"icons youtube\" data-wpel-link=\"external\"></a>\r\n        </div>\r\n      </div>\r\n      <div class=\"footer-clm-wrapper\">\r\n        <div class=\"footer-menu\">\r\n          <p>Company</p>\r\n          <div class=\"menu-footer-company-container\">\r\n            <ul id=\"menu-footer-company\" class=\"menu\">\r\n              <li id=\"menu-item-31501\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-31501\">\r\n                <a href=\"/about/\" data-wpel-link=\"internal\">About Us</a>\r\n              </li>\r\n              <li id=\"menu-item-31502\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-31502\">\r\n                <a href=\"/features/\" data-wpel-link=\"internal\">Bagisto Features</a>\r\n              </li>\r\n              <li id=\"menu-item-31503\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-31503\">\r\n                <a href=\"/partners/\" data-wpel-link=\"internal\">Partners</a>\r\n              </li>\r\n              <li id=\"menu-item-31505\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-31505\">\r\n                <a href=\"/events/\" data-wpel-link=\"internal\">Events</a>\r\n              </li>\r\n            </ul>\r\n          </div>\r\n        </div>\r\n        <div class=\"footer-menu\">\r\n          <p> Quick Links</p>\r\n          <div class=\"menu-footer-quick-link-container\">\r\n            <ul id=\"menu-footer-quick-link\" class=\"menu\">\r\n              <li id=\"menu-item-31513\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-31513\">\r\n                <a href=\"/blog/\" data-wpel-link=\"internal\">Blog</a>\r\n              </li>\r\n              <li id=\"menu-item-1663\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-1663\"><a\r\n                  href=\"/download/\" data-wpel-link=\"internal\">Download</a>\r\n              </li>\r\n            </ul>\r\n          </div>\r\n        </div>\r\n        <div class=\"footer-menu\">\r\n          <p> Extensions</p>\r\n          <div class=\"menu-extensions-container\">\r\n            <ul id=\"menu-extensions\" class=\"menu\">\r\n              <li id=\"menu-item-11032\" class=\"menu-item\">\r\n                <a href=\"/laravel-multi-vendor-marketplace/\" data-wpel-link=\"internal\">Marketplace</a>\r\n              </li>\r\n              <li id=\"menu-item-31520\" class=\"menu-item\">\r\n                <a href=\"/headless-ecommerce/\" data-wpel-link=\"internal\">Open Source Headless\r\n                  eCommerce Platform&nbsp;</a>\r\n              </li>\r\n            </ul>\r\n          </div>\r\n        </div>\r\n        <div class=\"footer-menu\">\r\n          <p>eCommerce Stores</p>\r\n          <div class=\"menu-footer-industries-container\">\r\n            <ul id=\"menu-footer-industries\" class=\"menu\">\r\n              <li id=\"menu-item-31524\" class=\"menu-item\">\r\n                <a href=\"/fashion-commerce/\" data-wpel-link=\"internal\">Fashion Commerce</a>\r\n              </li>\r\n              <li id=\"menu-item-31523\" class=\"menu-item\">\r\n                <a href=\"/quick-commerce/\" data-wpel-link=\"internal\">Quick Commerce</a>\r\n              </li>\r\n            </ul>\r\n          </div>\r\n        </div>\r\n        <div class=\"footer-menu\">\r\n          <p>Services</p>\r\n          <div class=\"menu-footer-services-container\">\r\n            <ul id=\"menu-footer-services\" class=\"menu\">\r\n              <li id=\"menu-item-31532\" class=\"menu-item\">\r\n                <a href=\"/services/\" data-wpel-link=\"internal\">Bagisto Services</a>\r\n              </li>\r\n              <li id=\"menu-item-31526\" class=\"menu-item\">\r\n                <a target=\"_blank\" href=\"/laravel-development/\" data-wpel-link=\"exclude\">Laravel\r\n                  Development Services</a>\r\n              </li>\r\n            </ul>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"lf-footer-entity\">\r\n        <p class=\"footer-ent-content\">© Copyright 2026, Webkul Software (Registered in India/USA). All rights\r\n          reserved. </p>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</footer>",
+  "type": "Footer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [
+   {
+    "default": null,
+    "fieldname": "product_main_spn_title",
+    "fieldtype": "Data",
+    "label": "Product Main Title Span",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_main_title",
+    "fieldtype": "Data",
+    "label": "Product  Main Title ",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_main_description",
+    "fieldtype": "Text",
+    "label": "Product Main Description",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_1_title",
+    "fieldtype": "Data",
+    "label": "Product 1 Title",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_1_description",
+    "fieldtype": "Text",
+    "label": "Product 1 Description",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_1_button_text",
+    "fieldtype": "Data",
+    "label": "Product 1 Button Text",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_1_button_url",
+    "fieldtype": "Data",
+    "label": "Product 1 Button URL",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_1_image_url",
+    "fieldtype": "Attach Image",
+    "label": "Product 1 Image URL",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_2_title",
+    "fieldtype": "Data",
+    "label": "Product 2 Title",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_2_description",
+    "fieldtype": "Text",
+    "label": "Product 2 Description",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_2_button_text",
+    "fieldtype": "Data",
+    "label": "Product 2 Button Text",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_2_button_url",
+    "fieldtype": "Data",
+    "label": "Product 2 Button URL",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_2_image_url",
+    "fieldtype": "Attach Image",
+    "label": "Product 2 Image URL",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_3_title",
+    "fieldtype": "Data",
+    "label": "Product 3 Title",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_3_description",
+    "fieldtype": "Text",
+    "label": "Product 3 Description",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_3_button_text",
+    "fieldtype": "Data",
+    "label": "Product 3 Button Text",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_3_button_url",
+    "fieldtype": "Data",
+    "label": "Product 3 Button URL",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_3_image_url",
+    "fieldtype": "Attach Image",
+    "label": "Product 3 Image URL",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_4_title",
+    "fieldtype": "Data",
+    "label": "Product 4 Title",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_4_description",
+    "fieldtype": "Text",
+    "label": "Product 4 Description",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_4_button_text",
+    "fieldtype": "Data",
+    "label": "Product 4 Button Text",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_4_button_url",
+    "fieldtype": "Data",
+    "label": "Product 4 Button URL",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "default": null,
+    "fieldname": "product_4_image_url",
+    "fieldtype": "Attach Image",
+    "label": "Product 4 Image URL",
+    "options": null,
+    "reqd": 0
+   }
+  ],
+  "modified": "2026-06-23 11:33:07.128246",
+  "module": "Lf website",
+  "name": "lf_products",
+  "standard": 0,
+  "template": "<section class=\"lf-bento-grid-section section-padding128-0B\">\r\n  <div class=\"wkgrid-wide wider-max\">\r\n    <div class=\"lf-banner-content text-center\">\r\n      <h2 class=\"lf-banner-title m-0\"><span class=\"linear-color-text\">{{ _(product_main_spn_title) }}</span> {{\r\n        _(product_main_title) }}</h2>\r\n      <p class=\"lf-banner-para margin-top-20 mw700\">{{ _(product_main_description) }}</p>\r\n    </div>\r\n\r\n    <div class=\"lf-bento-grid-container margin-top-56 animate-card\">\r\n      <div class=\"lf-bento-grid-card visible\">\r\n        <div class=\"lf-bento-grid-card-content\">\r\n\r\n          <p class=\"lf-bento-grid-card-title m-0\">\r\n            {{ _(product_1_title) }}\r\n          </p>\r\n\r\n          <p class=\"lf-bento-grid-card-description\">\r\n            {{ _(product_1_description) }}\r\n          </p>\r\n\r\n          <a href=\"{{ product_1_button_url }}\" class=\"lf-button shadow-none arrowed\">\r\n            {{ _(product_1_button_text) }}\r\n          </a>\r\n\r\n        </div>\r\n\r\n        <div class=\"lf-bento-grid-card-img-wrapper\">\r\n          <picture>\r\n            <img src=\"{{ product_1_image_url }}\" alt=\"{{ _(product_1_title) }}\" loading=\"lazy\">\r\n          </picture>\r\n        </div>\r\n      </div>\r\n      <div class=\"lf-bento-grid-card visible\">\r\n        <div class=\"lf-bento-grid-card-content\">\r\n          <p class=\"lf-bento-grid-card-title m-0\">\r\n            {{ _(product_2_title) }}\r\n          </p>\r\n\r\n          <p class=\"lf-bento-grid-card-description\">\r\n            {{ _(product_2_description) }}\r\n          </p>\r\n\r\n          <a href=\"{{ product_2_button_url }}\" class=\"lf-button shadow-none arrowed\">\r\n            {{ _(product_2_button_text) }}\r\n          </a>\r\n        </div>\r\n        <div class=\"lf-bento-grid-card-img-wrapper\">\r\n          <picture>\r\n            <img src=\"{{ product_2_image_url }}\" alt=\"{{ _(product_2_title) }}\" loading=\"lazy\">\r\n          </picture>\r\n        </div>\r\n      </div>\r\n      <div class=\"lf-bento-grid-card visible\">\r\n        <div class=\"lf-bento-grid-card-content\">\r\n\r\n          <p class=\"lf-bento-grid-card-title m-0\">\r\n            {{ _(product_3_title) }}\r\n          </p>\r\n\r\n          <p class=\"lf-bento-grid-card-description\">\r\n            {{ _(product_3_description) }}\r\n          </p>\r\n\r\n          <a href=\"{{ product_3_button_url }}\" class=\"lf-button shadow-none arrowed\">\r\n            {{ _(product_3_button_text) }}\r\n          </a>\r\n\r\n        </div>\r\n\r\n        <div class=\"lf-bento-grid-card-img-wrapper\">\r\n          <picture>\r\n            <img src=\"{{ product_3_image_url }}\" alt=\"{{ _(product_3_title) }}\" loading=\"lazy\">\r\n          </picture>\r\n        </div>\r\n      </div>\r\n      <div class=\"lf-bento-grid-card visible\">\r\n        <div class=\"lf-bento-grid-card-content\">\r\n          <p class=\"lf-bento-grid-card-title m-0\">\r\n            {{ _(product_4_title) }}\r\n          </p>\r\n\r\n          <p class=\"lf-bento-grid-card-description\">\r\n            {{ _(product_4_description) }}\r\n          </p>\r\n\r\n          <a href=\"{{ product_4_button_url }}\" class=\"lf-button shadow-none arrowed\">\r\n            {{ _(product_4_button_text) }}\r\n          </a>\r\n        </div>\r\n        <div class=\"lf-bento-grid-card-img-wrapper\">\r\n          <picture>\r\n            <img src=\"{{ product_4_image_url }}\" alt=\"{{ _(product_4_title) }}\" loading=\"lazy\">\r\n          </picture>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>",
+  "type": "Section"
+ }
+]

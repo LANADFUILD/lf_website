@@ -8,6 +8,37 @@ app_license = "mit"
 # Apps
 # ------------------
 
+# lf_website/hooks.py fixtures
+fixtures = [
+    {
+        "dt": "Web Page",
+        "filters": [
+            ["module", "=", "Lf Website"]
+        ]
+    },
+
+    {
+        "dt": "Web Template",
+        "filters": [
+            ["module", "=", "Lf Website"]
+        ]
+    },
+
+    {
+        "dt": "Web Form",
+        "filters": [
+            ["module", "=", "Lf Website"]
+        ]
+    },
+
+    {
+        "dt": "Website Theme"
+    },
+
+    {
+        "dt": "Website Settings"
+    }
+]
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
@@ -31,8 +62,9 @@ app_license = "mit"
 # include js, css files in header of web template
 web_include_css = [
 "/assets/lf_website/css/style.css",
-"/assets/lf_website/css/lfstyle.css",
+"/assets/lf_website/css/lfstyle.css"
 ]
+#web_include_css = "/assets/lf_website/scss/website.bundle"
 web_include_js = "/assets/lf_website/js/lf-script.js"
 #web_include_js = "/assets/lf_website/js/lf-hovered-script.js"
 
